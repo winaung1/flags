@@ -1,0 +1,66 @@
+body{
+    font-family: 'Protest Riot', sans-serif;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('https://images.pexels.com/photos/269790/pexels-photo-269790.jpeg?auto=compress&cs=tinysrgb&w=600');
+    position: relative;
+}
+
+
+h1{
+    font-size: 50px;
+    z-index: 10;
+}
+input{
+    background: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    outline: none;
+    width: 50%;
+    margin: 20px 0px;
+    font-weight: bold;
+    border: none;
+}
+
+ button{
+    background-color: #0789ab;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.flag-container img{
+   margin: auto;
+   width: 100%;
+   border-radius: 10px;
+   max-width: 500px;
+
+}
+
+ul{
+    position: fixed;
+    bottom: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+
+@media  screen and (min-width: 768px) {
+    h1{
+        font-size: 80px;
+        z-index: 10;
+    }
+    
+}
